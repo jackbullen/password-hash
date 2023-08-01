@@ -18,3 +18,12 @@ Authentication feature and correctly implemented SHA1 algorithm.
 Reminded myself of some Django, learned about Digital Ocean web services, and learned about hashing and specifically the SHA1 algorithm.
 ## What's next for Password Hasher
 More styling and actually showcase the algorithm. Right now the algorithm is sitting in a python file called sha1.py and there is nothing about it displayed in the web app.
+
+## Sources for SHA1:
+1. Pseudo-code: 
+    #https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2012/07/SHA-1-1.pdf
+2. Stackexchange question with implementation of the above pseudo-code:
+    #https://codereview.stackexchange.com/questions/37648/python-implementation-of-sha1
+
+ 
+
