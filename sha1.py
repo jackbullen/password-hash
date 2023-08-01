@@ -7,6 +7,8 @@
 # Note:    
 # Not meant to be an optimized or well written implementation.
 # Meant to be instructive and easy to read to understand SHA1.
+
+# Much of the bit processing is done on a string. This is not optimal but it makes it easier to understand.
     
 def chunkify(l, n):
     # Taken from stackexchange source
