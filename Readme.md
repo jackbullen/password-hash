@@ -3,7 +3,7 @@
 ## Inspiration
 Wanted to learn about password hashing so I implemented the SHA-1 algorithm and made a Django app with authentication features. Note: The app does not use the implementation and it is only for learning purposes.
 ## What it does
-Login, logout. Will further modify to display information about SHA1.
+Signup, login, logout. Stores user data in postgresql database. Will further modify to display information about SHA1.
 ## How we built it
 Django and digital ocean with app. 
 
