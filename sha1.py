@@ -78,14 +78,14 @@ def sha1(msg):
             elif 60<=i<=79:
                 f = b ^ c ^ d
                 k = 0xCA62C1D6
-            # Why 0xffffffff
+
             temp = (left_rotate(a, 5)) + f + e + k + w[i] & 0xffffffff
             e = d
             d = c
             c = left_rotate(b, 30)
             b = a
             a = temp
-        # Why the & 0xffffffff
+
         h0 = h0 + a & 0xffffffff
         h1 = h1 + b & 0xffffffff
         h2 = h2 + c & 0xffffffff
